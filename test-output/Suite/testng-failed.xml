@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="ie"/>
+  <test name="Test on ie(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.staffing.testsuite.Scrollupdown">
+        <methods>
+          <include name="scrollUpDown" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.staffing.testsuite.Scrollupdown -->
+    </classes>
+  </test> <!-- Test on ie(failed) -->
+</suite> <!-- Failed suite [Suite] -->
